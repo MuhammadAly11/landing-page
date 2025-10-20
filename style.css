@@ -15,7 +15,7 @@ body {
   font-size: 18px;
 }
 
-.logo {
+.logo, button {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -23,4 +23,40 @@ body {
 .links {
   display: flex;
   gap: 24px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  max-width: 500px;
+}
+
+.hero * {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+img {
+  width: 400px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
 }
