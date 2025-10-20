@@ -15,7 +15,8 @@ body {
   font-size: 18px;
 }
 
-.logo, button {
+.logo,
+button {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -50,7 +51,7 @@ body {
   font-weight: 900;
 }
 
-img {
+.hero-container img {
   width: 400px;
 }
 
@@ -59,4 +60,41 @@ button {
   padding: 12px 24px;
   border-radius: 12px;
   border: none;
+}
+
+.information {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.information h2 {
+  margin: 48px;
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-pair .text,
+img {
+  text-align: center;
+  width: 150px;
+}
+
+.info-pair img {
+  border-radius: 25px;
 }
