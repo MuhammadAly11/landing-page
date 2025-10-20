@@ -24,6 +24,7 @@ button {
 .links {
   display: flex;
   gap: 24px;
+  justify-content: end;
 }
 
 .hero-container {
@@ -37,8 +38,10 @@ button {
   font-size: 18px;
 }
 
-.hero {
+.hero,
+.logo {
   max-width: 500px;
+  width: 500px;
 }
 
 .hero * {
@@ -51,7 +54,8 @@ button {
   font-weight: 900;
 }
 
-.hero-container img {
+.hero-container img,
+.links {
   width: 400px;
 }
 
@@ -63,7 +67,7 @@ button {
 }
 
 .information {
-  height: 400px;
+  height: 420px;
   justify-content: center;
   align-items: center;
 }
@@ -79,7 +83,7 @@ button {
 .info-cards {
   display: flex;
   justify-content: center;
-  gap: 48px;
+  gap: 52px;
 }
 
 .info-pair {
@@ -90,7 +94,7 @@ button {
 }
 
 .info-pair .text,
-img {
+.info-pair img {
   text-align: center;
   width: 150px;
 }
