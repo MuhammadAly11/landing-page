@@ -39,7 +39,8 @@ button {
 }
 
 .hero,
-.logo {
+.logo,
+.call {
   max-width: 500px;
   width: 500px;
 }
@@ -55,7 +56,8 @@ button {
 }
 
 .hero-container img,
-.links {
+.links,
+.button {
   width: 400px;
 }
 
@@ -122,4 +124,36 @@ button {
 
 .author {
   align-self: flex-end;
+}
+
+.action-section {
+  height: 400px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 24px 0px;
+  border-radius: 25px;
+  color: #f9faf8;
+}
+
+.call p {
+  font-size: 26px;
+  margin: 0;
+}
+
+.button {
+  text-align: right;
+}
+
+.action button {
+  border: 1px solid #f9faf8;
 }
